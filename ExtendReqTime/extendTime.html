@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Asset/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="extendTime.css">
+    <title>Extend</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="title">Extend this book?</p>
+        </div>
+
+        <div class="content">
+            <div class="coverBox">
+                <div class="cover">
+                    <img src="Asset\keajaiban toko kelontong namiya.jpg" alt="">
+                </div>
+                <div class="bContainer">
+                    <p class="bTitle">Keajaiban Toko Kelontong Namiya</p> 
+                </div>
+                <p class="bWriter">Keigo Higashino</p>
+            </div>
+            
+            <!-- method : post -->
+            <form action="extendTime2.html" method="post">
+                <div class="form">
+                    <p class="fText">Duration</p>
+                    <img class="line1" src="Asset\line.png" alt="">
+                    <div class="input">
+                        <div class="input1">
+                            <input type="radio" name="input" id="rad1" value="1">
+                            <p class="space1">......</p>
+                            <label for="rad1">A day</label><br>
+                        </div>
+                        <div class="input2">
+                            <input type="radio" name="input" id="rad2" value="2">
+                            <p class="space2">......</p>
+                            <label for="rad2">2 days</label><br>
+                        </div>
+                        <div class="input3">
+                            <input type="radio" name="input" id="rad3" value="3">
+                            <p class="space3">......</p>
+                            <label for="rad3">3 days</label><br>
+                        </div>
+                    </div>
+                    <p class="reason">Reason</p>
+                    <img class="line2" src="Asset\line.png" alt="">
+                    <input type="text" class="reason2" placeholder="Type your reason here...">
+                    <p class="alert">Note: You could only extend <b>once per book.</b></p>
+                    <button type="submit" class="submit">Submit</button>
+                </div>    
+            </form>
+            
+            
+        </div>
+    </div>
+    
+</body>
+</html>
